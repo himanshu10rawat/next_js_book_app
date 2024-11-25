@@ -1,3 +1,9 @@
+import Banner from "./components/Banner";
+
 export default function Home() {
-  return <h1>Hello Next.js</h1>
+  return (
+    <main className="max-w-7xl mx-auto px-3">
+      <Banner />
+    </main>
+  );
 }
