@@ -4,17 +4,17 @@ import React from "react";
 
 const Header = () => {
   return (
-    <header className="shadow-sm border-b">
+    <header className="shadow-sm border-b sticky top-0 z-10 bg-white">
       <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-3">
         <Link href={"/"} className="flex items-center">
           <Image
             src={"https://img.icons8.com/color/48/ibooks.png"}
             alt="ibooks"
             sizes="100vw"
-            width={"40"}
-            height={"40"}
+            width={40}
+            height={40}
           />
-          <span className="text-primary-500 font-bold text-lg">Books App</span>
+          <span className="text-primary-500 font-bold text-lg">Book Store</span>
         </Link>
         <div className="flex items-center gap-2">
           <button className="h-10 rounded-md border border-primary-500 px-4 py-2 text-sm font-medium text-primary-500 transition-all hover:border-primary-100 hover:bg-primary-100 active:border-primary-200 active:bg-primary-200">
